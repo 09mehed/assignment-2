@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+body{
+    background-color: black;
+}
+.container{
+    width: 90%;
+    margin: 2rem auto;
+}
+.bg-gray{
+    background-image: linear-gradient(rgba(17, 17, 17, 1), rgba(119, 119, 119, 0));
+    border-radius: 50%;
+}
+/* navbar area start */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-text{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #E6533C;
+    font-style: italic;
+}
+.navbar-area ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    color: white;
+}
+.nav-text span{
+    background-color: #E6533C;
+    padding: 0.6rem 1.1rem;
+    border-radius: 30px;
+    border: none;
+}
+.hamburger{
+    color: white;
+    font-size: 1.5rem;
+    display: none;
+}
+
+/* banner area start */
+
+.banner{
+    padding: 30px 0;
+}
+.banner-area{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 10px; */
+}
+.banner-text{
+    width: 50%;
+    padding-top: 3rem;
+}
+.banner-text h1{
+    color: white;
+    font-size: 4rem;
+    font-weight: 800;
+}
+.banner-text h1 span{
+    font-style: italic;
+    font-weight: 400;
+}
+.banner-text p{
+    color: #8C8C8C;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 1rem 0;
+}
+.button{
+   margin-top: 1.3rem;
+   margin-bottom: 1.3rem;
+}
+.btn{
+    color: white;
+    background-color: #E6533C;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.btn-1{
+    color: white;
+    border: 1px solid white;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 15px;
+    background-color: transparent;
+    margin-left: 15px;
+}
+.banner-img img{
+    width: 100%;
+    position: relative;
+}
+.banner-img-text{
+    color: white;
+    background-color: #353535;
+    text-align: left;
+    padding: 1rem 1rem;
+    border-radius: 10px;
+    position: absolute;
+    top: 43%;
+    left: 82%;
+}
+.banner-img-text h2{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.banner-img-text h4{
+    font-size: 1rem;
+    color: #8C8C8C;
+}
+.banner-img-text2{
+    color: white;
+    background-color: #353535;
+    text-align: left;
+    padding: 1rem 1rem;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    position: absolute;
+    top: 95%;
+    right: 25%;
+}
+.social-icon i{
+    background-color: #E6533C;
+    font-size: 1.5rem;
+    padding: 1rem 1rem;
+    border-radius: 3rem;
+}
+.banner-img-text3 h3{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.banner-img-text3 h4{
+    font-size: 1rem;
+    color: #8C8C8C;
+}
+
+/* habit-area section start */
+
+.habit-area{
+    color: white;
+}
+.habit-area h1{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+.habit-area p{
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 400;
+    color: #8C8C8C;
+}
+.box-area{
+    padding-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.box-img img{
+    width: 100%;
+    border-radius: 50%;
+}
+.box-text{
+    color: white;
+}
+.box-text h3{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 0.7rem;
+}
+.box-text p{
+    text-align: center;
+    font-size: 0.9rem;
+    color: #8C8C8C;
+    font-weight: 400;
+    padding-top: 0.5rem;
+}
+
+/* run area section start */
+
+.run{
+    background-color: #222222;
+    border-radius: 8px;
+}
+.run-area{
+    margin: 1.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.run-text{
+    width: 45%;
+    color: white;
+}
+.run-text h1{
+    font-size: 2rem;
+    padding-top: 0.5rem;
+    font-weight: 800;
+}
+.run-text p{
+    color: #8C8C8C;
+    font-size: 1rem;
+    padding: 1rem 0;
+    font-weight: 400;
+}
+.btn-2{
+    color: white;
+    background-color: #E6533C;
+    border: none;
+    padding: 1rem 4rem;
+    border-radius: 15px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.run-img{
+    width: 45%;
+    margin: 1.5rem 1rem;
+}
+.run-img img{
+    width: 100%;
+    border-radius: 10px;
+}
