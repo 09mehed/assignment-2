@@ -22,8 +22,8 @@
     .btn-1{
         padding: 1rem 0.7rem;
     }
-    .banner-img-text, .banner-img-text2{
-        display: none;
+    .banner-img-text2{
+        right: 55%;
     }
     .box-area{
         grid-template-columns: repeat(1, 1fr);
@@ -40,6 +40,27 @@
     .btn-2{
         padding: 1rem 5rem;
     }
+    .training-content, .training-content2{
+        grid-template-columns: 1fr;
+    }
+    .calculator-header{
+        padding-left: 1rem;
+    }
+    .bmi-cal{
+        flex-direction: column;
+    }
+    .bmi-table{
+        width: 100%;
+    }
+    input{
+        width: 85%;
+    }
+    select{
+        width: 97%;
+    }
+    .bmi-form h1{
+        padding-top: 1rem;
+    }
 }
 @media screen and (min-width: 576px) and (max-width: 992px){
     .hamburger{
@@ -51,10 +72,10 @@
     .banner-text{
         width: 100%;
     }
-    .banner-img-text, .banner-img-text2{
-        display: none;
-    }
     .box-area{
         grid-template-columns: repeat(2, 1fr);
+    }
+    .calculator-header{
+        padding-left: 2.5rem;
     }
 }
