@@ -408,22 +408,25 @@ input{
 select{
     width: 100%;
     padding: 0.9rem 1rem;
+    color: #AFAFAF;
     background-color: #373737;
     margin: 0.5rem 0.2rem;
     border: none;
     border-radius: 8px;
     font-size: 1rem;
-    color: #AFAFAF;
 }
 option{
     color: #AFAFAF;
 }
-.select{
+.select select{
     width: 100%;
     background-color: #373737;
     border: none;
     border-radius: 8px;
     font-size: 1rem;
+    color: #AFAFAF;
+}
+.select h3{
     color: #AFAFAF;
 }
 table{
@@ -433,6 +436,15 @@ td, tr, th{
     border: 1px solid #383838;
     padding: 1rem 2rem;
     color: #909090;
+}
+.btn-calculate{
+    padding: 1rem 3rem;
+    border: none;
+    color: white;
+    background-color: #E6533C;
+    border-radius: 15px;
+    font-size: 1rem;
+    font-weight: 500;
 }
 
 /* team section start */
