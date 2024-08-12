@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+AR:wght@100..400&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -12,8 +12,7 @@ body{
     margin: 2rem auto;
 }
 .bg-gray{
-    /* background-image: linear-gradient(rgba(17, 17, 17, 1), rgba(119, 119, 119, 0)); */
-    background-image: linear-gradient(360deg, rgba(17, 17, 17, 0.4), rgba(119, 119, 199, 0), 100%);
+    background-image: linear-gradient(rgba(17, 17, 17, 1), rgba(119, 119, 119, 0));
     border-radius: 50%;
 }
 /* navbar area start */
@@ -72,8 +71,8 @@ ul li{
     font-weight: 800;
 }
 .banner-text h1 span{
-    font-style: italic;
     font-weight: 400;
+    font-family: "Playwrite AR", cursive;
 }
 .banner-text p{
     color: #8C8C8C;
@@ -141,11 +140,18 @@ ul li{
     top: 80%;
     right: 75%;
 }
+.social-icon .color{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #E6533C;
+}
 .social-icon i{
     background-color: #E6533C;
     font-size: 1.5rem;
     padding: 1rem 1rem;
     border-radius: 3rem;
+    display: none;
 }
 .banner-img-text3 h3{
     font-size: 2rem;
@@ -220,6 +226,7 @@ ul li{
     font-size: 2rem;
     padding-top: 0.5rem;
     font-weight: 800;
+    width: 300px;
 }
 .run-text p{
     color: #8C8C8C;
@@ -279,7 +286,7 @@ ul li{
     position: relative;
 }
 .training-img .img{
-    color: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2));;
+   background-color: #4D3DAF;
 }
 .text{
     color: white;
@@ -334,7 +341,7 @@ ul li{
 
 .calculator-header{
     color: white;
-    padding-left: 16rem;
+    text-align: center;
 }
 .calculator-header h1{
     font-size: 2rem; 
@@ -408,6 +415,9 @@ select{
     font-size: 1rem;
     color: #AFAFAF;
 }
+option{
+    color: #AFAFAF;
+}
 .select{
     width: 100%;
     background-color: #373737;
@@ -425,4 +435,82 @@ td, tr, th{
     color: #909090;
 }
 
+/* team section start */
+
+.team img{
+    width: 100%;
+    height: 300px;
+}
+.team-area{
+    margin: 1rem 1rem;
+}
+.team-area h1{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 1rem 0;
+    color: white;
+}
+.team-area p{
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    color: #4d4c4c;
+}
+.team-section{
+    background-color: #191919;
+    padding: 0.8rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    border-radius: 8px;
+}
+.team-section img{
+    border-radius: 10px;
+}
+.text h6{
+    color: #AFAF83;
+}
+
+/* footer area start */
+
+.footer{
+    background-color: #191919;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 1rem 1rem;
+}
+.footer1{
+    width: 40%;
+}
+.footer1 p{
+    color: #5f5e5e;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-top: 1rem;
+}
+.footer1 h2{
+    color: #E6533C;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 0.7rem 0;
+    font-style: italic;
+}
+.footer1 h3{
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 0.7rem 0;
+    color: white;
+}
+.footer1 ul{
+    list-style: none;
+}
+.footer1 ul li{
+    margin: 1rem 0;
+    color: #5f5e5e;
+}
 

@@ -13,6 +13,10 @@
     .banner-text{
         width: 100%;
     }
+    .run-text h1{
+        font-size: 1.5rem;
+        width: 100%;
+    }
     .banner-text h1{
         font-size: 2rem;
     }
@@ -24,6 +28,12 @@
     }
     .banner-img-text2{
         right: 55%;
+    }
+    .social-icon .color{
+        display: none;
+    }
+    .social-icon i{
+        display: block;
     }
     .box-area{
         grid-template-columns: repeat(1, 1fr);
@@ -43,8 +53,8 @@
     .training-content, .training-content2{
         grid-template-columns: 1fr;
     }
-    .calculator-header{
-        padding-left: 1rem;
+    .training-text h1{
+        font-size: 1.5rem;
     }
     .bmi-cal{
         flex-direction: column;
@@ -60,6 +70,15 @@
     }
     .bmi-form h1{
         padding-top: 1rem;
+    }
+    .team-section{
+        grid-template-columns: 1fr;
+    }
+    .footer-container{
+        flex-direction: column;
+    }
+    .footer1{
+        width: 100%;
     }
 }
 @media screen and (min-width: 576px) and (max-width: 992px){
