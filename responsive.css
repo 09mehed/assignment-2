@@ -7,7 +7,7 @@
     .hamburger{
         display: block;
     }
-    .banner-area{
+    .banner-area, .design-container{
         flex-direction: column;
     }
     .banner-text{
@@ -71,6 +71,15 @@
     .bmi-form h1{
         padding-top: 1rem;
     }
+    .popular-text{
+        width: 100%;
+    }
+    .popular-img{
+        width: 100%;
+    }
+    .btn-1{
+        padding: 1rem 1.5rem;
+    }
     .team-section{
         grid-template-columns: 1fr;
     }
@@ -85,7 +94,7 @@
     .hamburger{
         display: none;
     }
-    .banner-area{
+    .banner-area, .design-container{
         flex-direction: column;
     }
     .banner-text{
@@ -96,5 +105,11 @@
     }
     .calculator-header{
         padding-left: 2.5rem;
+    }
+    .popular-text{
+        width: 100%;
+    }
+    .popular-img{
+        width: 100%;
     }
 }
